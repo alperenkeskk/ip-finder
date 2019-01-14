@@ -1,2 +1,5 @@
 # ip-finder
-Network scanner
+Find IP's in the network
+# How to use?
+./ipfinder.sh
+it is easy :D
