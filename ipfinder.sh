@@ -8,14 +8,14 @@ echo "-----------------------------------"
 
 if which nmap >/dev/null; then
 
-		clear
-		echo "-----------------------------------"
-	    echo "Your IP Address"
-	    echo "$your_ip"
-	    echo "-----------------------------------"
+	clear
+	echo "-----------------------------------"
+	echo "Your IP Address"
+	echo "$your_ip"
+	echo "-----------------------------------"
 	
-	    echo "IPs in the network"
-	    nmap  $your_ip | grep "scan report" | awk '{print $5}'
+	echo "IPs in the network"
+	nmap  $your_ip | grep "scan report" | awk '{print $5}'
 	    
 else
 
